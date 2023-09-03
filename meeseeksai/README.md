@@ -1,4 +1,4 @@
-# A friendly chatbot application
+# A friendly OpenAI chatbot application
 
 Todo:
 
