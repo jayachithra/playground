@@ -1,11 +1,11 @@
 """Meeseeks AI chatbot"""
-from .openai_client import OpenAIClient
+from .openai_client import AzureOpenAIClient
 from .personas import GeneralQA
 from .orchestrator import Orchestrator
 
 def chat():
     """Interact with the user"""
-    orchestrator = Orchestrator(OpenAIClient(), GeneralQA())
+    orchestrator = Orchestrator(AzureOpenAIClient(), GeneralQA())
     while True:
         user_prompt = input("Q: ")
         

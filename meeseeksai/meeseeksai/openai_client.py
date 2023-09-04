@@ -1,9 +1,14 @@
 # Client to interact with OpenAI's API
 import os
 import openai
+from abc import ABC
 from dotenv import load_dotenv
 
-class OpenAIClient:
+class OpenAIClient(ABC):
+    def __init__(self) -> None:
+        pass
+
+class AzureOpenAIClient(OpenAIClient):
     """Client to interact with OpenAI's API"""
     def __init__(self):
         """Initialize the OpenAIClient"""

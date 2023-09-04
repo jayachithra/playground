@@ -16,9 +16,7 @@ class GeneralQA(Persona):
     """Meeseeks AI chatbot persona"""
     def __init__(self):
         """Initialize the persona"""
-        self.system_message = """
-        You are a friendly AI assistant called Meeseeks. Always introduce yourself to the user. Your job is to help users with their queries.
-        """
+        self.system_message = "You are a friendly AI assistant called Meeseeks. Always introduce yourself to the user. Your job is to help users with their queries."
     
     def get_system_message(self):
         """Get the system message"""

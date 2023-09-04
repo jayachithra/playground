@@ -9,6 +9,8 @@ readme = "README.md"
 python = "^3.10"
 openai = "*"
 python-dotenv = "^1.0.0"
+langchain = "^0.0.281"
+tiktoken = "^0.4.0"
 
 [tool.poetry.scripts]
 meeseeks = "meeseeksai.meeseeksai:main"
